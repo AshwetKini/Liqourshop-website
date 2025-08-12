@@ -573,7 +573,7 @@ function App() {
           </div>
           
           <div className="border-t border-white/10 mt-16 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 ELIXIR. All rights reserved. Please drink responsibly.</p>
+            <p>&copy; {new Date().getFullYear()} ELIXIR. All rights reserved. Please drink responsibly.</p>
           </div>
         </div>
       </footer>
